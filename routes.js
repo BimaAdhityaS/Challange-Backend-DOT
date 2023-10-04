@@ -1,7 +1,7 @@
-const {homepage} = require('./handler');
-const {postNotesHandler} = require('./handler');
-const {putNotesHandler} = require('./handler');
-const {deleteNotesHandler} = require('./handler');
+const {homepage} = require('./source/handler');
+const {postNotesHandler} = require('./source/handler');
+const {putNotesHandler} = require('./source/handler');
+const {deleteNotesHandler} = require('./source/handler');
 
 const routes = [
     {
